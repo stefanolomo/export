@@ -119,3 +119,8 @@
 		width: 100%;
 	}
 }
+
+.markdown-body table{
+	width: unset !important;
+    margin: 0 auto !important;
+}
