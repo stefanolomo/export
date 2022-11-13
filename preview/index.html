@@ -5,12 +5,45 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Preview</title>
+	<style>
+		*{
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}main{
+			padding: 1rem 2rem 0 2rem;
+		}a{
+			color: #0366d6;
+			text-decoration: none;
+		}a:hover{
+			text-decoration: underline;
+		}li{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin: 0.5rem 0 0.5rem;
+			padding: 0.5rem;
+			border-radius: 0.5rem;
+			background-color: rgb(241, 241, 241);
+			list-style: none;
+		}li .items a{
+			margin: 0 0.5rem 0 0.5rem;
+		}li .items{
+			display: flex;
+			flex-direction: row;
+		}ul{
+			margin-top: 2rem;
+		}
+	</style>
 </head>
 <body>
 	<main>
+		<h3>Previewing section</h3>
+		<p>In the following links you will be able to see how different markdown documents look like when compiled with each theme, as well as the original markdown file.</p>
 		<ul>
-			<li><a href="../resumen.theme.css">Resumen theme</a> <a href="./resumen.pdf">PDF</a> <a href="./resumen.html">HTML</a></li>
-			<li><a href="../tarea.theme.css">Tarea theme</a><a href="./tarea.pdf">PDF</a><a href="./tarea.html">HTML</a></li>
+			<li><a href="../resumen.theme.css">Resumen theme</a> <div class="items"><a href="./resumen.md">MD</a> <a href="./resumen.pdf">PDF</a> <a href="./resumen.html">HTML</a></div></li>
+			<li><a href="../tarea.theme.css">Tarea theme</a> <div class="items"><a href="./tarea.md">MD</a> <a href="./tarea.pdf">PDF</a> <a href="./tarea.html">HTML</a></div></li>
 		</ul>
 	</main>
 </body>
