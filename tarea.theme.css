@@ -115,4 +115,9 @@
 .markdown-body table{
 	width: unset !important;
     margin: 0 auto !important;
+	margin-top: 16px !important;
+}
+
+.markdown-body table th {
+    font-weight: normal !important;
 }
