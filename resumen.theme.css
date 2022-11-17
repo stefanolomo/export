@@ -17,10 +17,6 @@
 	--footerHeaderBorderColor: #1c1c1c;
 }
 
-.markdown-body img {
-	padding: 0 0 0.5rem 0;
-}
-
 .hf-container {
 	font-size: 0.75em;
 }
@@ -112,26 +108,35 @@
 }
 
 
-@media screen and (min-width: 700px) {
+.markdown-body table {
+	table-layout: auto;
+	width: 100% !important;
+}
+
+@media screen and (min-width: 700px){
 	.markdown-body table {
 		table-layout: auto;
-		width: 100%;
+		width: 100% !important;
 	}
-}
-
-@media screen and (max-width: 700px) {
+}@media screen and (max-width: 700px){
 	.markdown-body table {
 		table-layout: fixed;
-		width: 100%;
+		width: 100% !important;
 	}
 }
 
-.markdown-body table {
-	width: unset !important;
-	margin: 0 auto !important;
+.markdown-body table{
 	margin-bottom: 16px !important;
 }
 
 .markdown-body table th {
-	font-weight: normal !important;
+    font-weight: normal !important;
+}
+
+body{
+	margin: 0 !important;
+}
+
+.markdown-body img{
+	padding: 0.5rem 0 0.5rem 0;
 }
