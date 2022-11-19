@@ -107,22 +107,9 @@
 	color: #212121 !important;
 }
 
-
 .markdown-body table {
-	table-layout: auto;
+	table-layout: fixed;
 	width: 100% !important;
-}
-
-@media screen and (min-width: 700px){
-	.markdown-body table {
-		table-layout: auto;
-		width: 100% !important;
-	}
-}@media screen and (max-width: 700px){
-	.markdown-body table {
-		table-layout: fixed;
-		width: 100% !important;
-	}
 }
 
 .markdown-body table{
