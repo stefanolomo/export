@@ -1,8 +1,12 @@
 /** Resumen **/
 
 @font-face {
-	font-family: "CC";
+	font-family: 'CC';
 	src: url(https://stefanolomo.github.io/markdown-styling/fonts/CascadiaCode.ttf);
+}
+@font-face {
+	font-family: 'JetBrains Mono Cdn Github';
+	src: url(https://stefanolomo.github.io/markdown-styling/fonts/JetbrainsMono.ttf);
 }
 
 .hf-container,
@@ -96,6 +100,11 @@
 	background-color: #f6f8fa;
 	border: 1px solid #e5e5e5;
 	border-radius: 0;
+}
+
+.markdown-body .highlight pre code,
+.markdown-body pre code {
+	font-family: 'JetBrains Mono Cdn Github', 'Jetbrains Mono', monospace;
 }
 
 .markdown-body blockquote {
