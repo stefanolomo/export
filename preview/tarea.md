@@ -47,7 +47,7 @@ HTML Code
 
 ```python
 # Fizz Buzz
-n = input("N ==> ")
+n = input("[N] --> ")
 for i in range(n+1):
     if i%15 == 0:
         print(i, "FizzBuzz")
