@@ -104,7 +104,7 @@
 
 .markdown-body .highlight pre code,
 .markdown-body pre code {
-	font-family: 'JetBrains Mono Cdn Github', 'Jetbrains Mono', monospace;
+	font-family: 'JetBrains Mono', 'JetBrains Mono Cdn Github', monospace;
 }
 
 .markdown-body blockquote {
@@ -135,4 +135,8 @@ body{
 
 .markdown-body img{
 	padding: 0.5rem 0 0.5rem 0;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string{
+	background-color: unset !important;
 }
