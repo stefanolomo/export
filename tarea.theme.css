@@ -125,7 +125,8 @@
 
 .markdown-body table {
 	table-layout: fixed;
-	width: 100% !important;
+	width: unset !important;
+	margin: 0 auto;
 }
 
 .markdown-body table {
